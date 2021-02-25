@@ -7,24 +7,10 @@ public class AlterarCena : MonoBehaviour
         SceneManager.LoadScene("01_Menu");
     }
 
-    public void Login(){
-        SceneManager.LoadScene("02_Login");
-    }
-
-    public void Parabens(){
-        SceneManager.LoadScene("07_Parabens");
-    }
-
-    public void Ranking(){
-        SceneManager.LoadScene("02_Ranking");
-    }
-
-
-
     public void Entrar(){
         /*  
         if(user.idade <= 15 && user.cidade == Belém){
-            SceneManager.LoadScene("05_Menor15");
+            SceneManager.LoadScene("02_Norte");
         }
 
         else if(user.idade >= 15 && user.cidade == Belém){
@@ -32,6 +18,6 @@ public class AlterarCena : MonoBehaviour
         }
         */
 
-        SceneManager.LoadScene("05_Menor15");
+        SceneManager.LoadScene("02_Norte");
     }
 }
