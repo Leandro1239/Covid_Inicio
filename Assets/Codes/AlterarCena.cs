@@ -1,23 +1,30 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AlterarCena : MonoBehaviour
 {
+    public Text label;
+
     public void Menu(){
         SceneManager.LoadScene("01_Menu");
     }
 
     public void Entrar(){
-        /*  
-        if(user.idade <= 15 && user.cidade == Belém){
+        if (label.text == "Norte"){
             SceneManager.LoadScene("02_Norte");
         }
-
-        else if(user.idade >= 15 && user.cidade == Belém){
-            SceneManager.LoadScene("06_Maior15");
+        if (label.text == "Sul"){
+            SceneManager.LoadScene("03_Sul");
         }
-        */
-
-        SceneManager.LoadScene("02_Norte");
+        if (label.text == "Centro-Oeste"){
+            SceneManager.LoadScene("05_Centro-Oeste");
+        }
+        if (label.text == "Sudeste"){
+            SceneManager.LoadScene("06_Sudeste");
+        }
+        if (label.text == "Nordeste"){
+            SceneManager.LoadScene("04_Nordeste");
+        }
     }
 }

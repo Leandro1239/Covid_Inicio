@@ -13,5 +13,14 @@ EditorBuildSettings:
     guid: 1aae403c3734ec443a61032ac78e9aa9
   - enabled: 1
     path: Assets/Scenes/03_Sul.unity
-    guid: b31d467ef7f16a549b87ce2c79c38515
+    guid: 0921b4952e57c3142a9ff737d39cb48c
+  - enabled: 1
+    path: Assets/Scenes/04_Nordeste.unity
+    guid: 55559d8636509094581df0f273741943
+  - enabled: 1
+    path: Assets/Scenes/05_Centro-Oeste.unity
+    guid: 8b3b46c5e57b63748b3cd55f3f07a1be
+  - enabled: 1
+    path: Assets/Scenes/06_Sudeste.unity
+    guid: 303d7ccf40e99124a99bc731445fd159
   m_configObjects: {}
